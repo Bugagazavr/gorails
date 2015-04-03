@@ -8,7 +8,7 @@ import (
 	"net/url"
 	"strings"
 
-	"golang.org/x/go.crypto/pbkdf2"
+	"golang.org/x/crypto/pbkdf2"
 )
 
 func generateSecret(base, salt string) []byte {
